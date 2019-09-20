@@ -37,8 +37,8 @@
         },
         data(){
             return{
-                paystackkey: "pk_test_aa5f479a9f5e5caf4bd9e0dcaf7a5838a195720f", //paystack public key
-                email: "spaveline1@gmail.com", // Customer email
+                paystackkey: "pk_test_xxxxxxxxxxxxxxxxxxxxxxx", //paystack public key
+                email: "email@gmail.com", // Customer email
                 amount: 1000000 // in kobo
             }
         },
