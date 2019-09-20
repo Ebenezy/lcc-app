@@ -1,4 +1,4 @@
-# hello-world
+# lcc-app
 
 ## Project setup
 ```
