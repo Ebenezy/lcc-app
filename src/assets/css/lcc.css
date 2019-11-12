@@ -246,10 +246,11 @@ a:hover, a:focus, a:active{
     rgba(25, 105, 205, 0.9) 100%);
 }
 .payment-btn{
-    background: #E84F1E;
+    /*background: #E84F1E;*/
+    background: #ffffff;
     font-family: Montserrat-Bold;
     font-size: 18px;
-    color: #FFFFFF;
+    color: #0091EA;
     text-align: center;
     padding: 1rem;
     width: 100%;

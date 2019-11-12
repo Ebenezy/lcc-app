@@ -7,20 +7,25 @@
                     <p>Make Payment today.</p>
                     <p>Balance: <span> &#x20A6;</span>5,000 </p>
                 </div>
-                <div class="pay-now">
-                    <paystack
-                            :amount="amount"
-                            :email="email"
-                            :paystackkey="paystackkey"
-                            :reference="reference"
-                            :callback="callback"
-                            :close="close"
-                            :embed="false"
-                            class="payment-btn"
-                    >
-                        <i class="fas fa-money-bill-alt"></i>
-                        Make Payment
-                    </paystack>
+                <div class="row no-gutters">
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4">
+                        <div class="pay-now">
+                            <paystack
+                                    :amount="amount"
+                                    :email="email"
+                                    :paystackkey="paystackkey"
+                                    :reference="reference"
+                                    :callback="callback"
+                                    :close="close"
+                                    :embed="false"
+                                    class="payment-btn"
+                            >
+                                <i class="fas fa-money-bill-alt"></i>
+                                Make Payment
+                            </paystack>
+                        </div>
+                    </div>
                 </div>
                 <div class="text-center lcc_logo"><img src="../../assets/images/lcc-logo.png" alt="LCC"></div>
             </div>
@@ -37,8 +42,8 @@
         },
         data(){
             return{
-                paystackkey: "pk_test_xxxxxxxxxxxxxxxxxxxxxxx", //paystack public key
-                email: "email@gmail.com", // Customer email
+                paystackkey: "pk_test_aa5f479a9f5e5caf4bd9e0dcaf7a5838a195720f", //paystack public key
+                email: "accounts@thankucash.com", // Customer email
                 amount: 1000000 // in kobo
             }
         },
@@ -54,12 +59,12 @@
             }
         },
         methods: {
-            callback: function(response){
-                console.log(response)
-            },
-            close: function(){
-                console.log("Payment closed")
-            }
+            // callback: function(response){
+            //     console.log(response)
+            // },
+            // close: function(){
+            //     console.log("Payment closed")
+            // }
         }
     }
 </script>

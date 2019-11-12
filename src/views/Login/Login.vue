@@ -9,18 +9,24 @@
                 Sustaining <span class="bold-txt">Development</span><br>
                 Adding <span class="bold-txt">Value..</span></p>
         </div>
-        <div class="login-box">
-            <div class="email_label">
-                <label class="label-email">e-Tag Code</label><br>
-                <input class="login_input" type="text" name="text" placeholder="12345abc">
+        <div class="row no-gutters">
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <div class="login-box">
+                    <div class="email_label">
+                        <label class="label-email">e-Tag Code</label><br>
+                        <input class="login_input" type="text" name="text" placeholder="12345abc">
+                    </div>
+                    <!--<div class="email_label2">-->
+                        <!--<label class="label-email">PASSWORD</label><br>-->
+                        <!--<input class="login_input" type="password" name="password" placeholder="********">-->
+                    <!--</div>-->
+                    <div class="login_click">
+                        <router-link to="Landing"><button class="login-btn">Login</button></router-link>
+                    </div>
+                </div>
             </div>
-            <!--<div class="email_label2">-->
-                <!--<label class="label-email">PASSWORD</label><br>-->
-                <!--<input class="login_input" type="password" name="password" placeholder="********">-->
-            <!--</div>-->
-            <div class="login_click">
-                <router-link to="Landing"><button class="login-btn">Login</button></router-link>
-            </div>
+            <div class="col-md-4"></div>
         </div>
         <div class="new_here">
             <p><font-awesome-icon icon="plus" class="fontawesom"/> New here?
